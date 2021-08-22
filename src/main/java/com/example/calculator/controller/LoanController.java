@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class LoanController {
     @GetMapping
     String getHome(Model model) {
-        model.addAttribute("Intro","Welcome to the loan calculator");
-        return "Loan";
+        model.addAttribute("Home","Welcome to the loan calculator");
+        return "index";
     }
 }
