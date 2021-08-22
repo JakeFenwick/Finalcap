@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>capstone2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>4.0.0-SNAPSHOT</version>
 	<name>capstone2</name>
 	<description>Capstone part 2</description>
 	<properties>
@@ -24,6 +24,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
 		</dependency>
 
 		<dependency>

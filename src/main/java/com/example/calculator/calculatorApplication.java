@@ -14,8 +14,5 @@ public class calculatorApplication {
 		SpringApplication.run(calculatorApplication.class, args);
 	}
 
-	@GetMapping
-	public String hello() {
-		return "Loan Calculator";
-	}
+
 }
